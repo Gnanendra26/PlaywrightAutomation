@@ -1,2 +1,7 @@
-console.log("This is the operators file to write the operators statements");
+ // Example of using setTimeout in a loop with var
+ for (var i = 0; i < 3; i++)
+ 
+ { setTimeout(() => console.log(i), 0); }
 
+
+ 
