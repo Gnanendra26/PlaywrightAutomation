@@ -1,0 +1,19 @@
+
+console.log("****This is First assignment.****");
+//Problem_01
+
+console.log(1 + "2" + 3); // First number second one is string so the output will be string concationation.
+Output: 123
+console.log(1 + 2 + "3"); // First two are numbers adding and after that string concationation.
+Output: 33
+console.log("5" * true); // String 5 and boolean value true will be 1. So 5*1 = 5
+Output: 5
+console.log(10 > 5 > 1); // Here 10>5 true. then true>1 i.e. 1>1  no its false. 
+Output : false
+
+//Problem_02
+let a = 2;     //declared a variable a with 2 value.
+
+    let b = a++ + ++a;   // // a++ → use 2, then a becomes 3 // ++a → a becomes 4, then use 4
+
+    console.log(a, b);
